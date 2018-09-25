@@ -1,0 +1,45 @@
+<style type="text/css">
+@font-face{
+    font-family: 'Cloud';
+    font-weight: normal;
+    src: url('../fonts/Cloud-Light.otf');
+}
+
+@font-face{
+    font-family: 'Cloud Bold';
+    font-weight: bold;
+    src: url('../fonts/Cloud-Bold.otf');
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Cloud;
+    font-size: 24px;
+}
+.loading{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 20000;
+    display: table;
+}
+
+.loading-logo{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.loading-logo img{
+    max-width: 100%;
+}
+</style>
+
+<div class="loading">
+    <div class="loading-logo">
+        <p><img src="images/logoWC-500px.png"></p>
+        <p>06:00 PM</p>
+    </div>
+</div>

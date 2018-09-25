@@ -1,0 +1,40 @@
+#!/usr/bin/python
+
+import os
+import signal
+import sys
+
+os.system("clear")
+
+print "============================================="
+print "||  Artisan Loop Controller (Version 0.1)  ||"
+print "============================================="
+print "|| Command Example                         ||"
+print "||                                         ||"
+print "|| Create a Controller                     ||"
+print "|| make:controller {ControllerName}        ||"
+print "||                                         ||"
+print "|| Type \"help\" to see all artisan command  ||"
+print "|| Type \"quit\" or \"exit\" to end program    ||"
+print "============================================="
+print ""
+
+
+
+while 1:
+    try:
+        cmd = raw_input("Enter Command: ")
+    except KeyboardInterrupt:
+        print "\nExiting...\n"
+        sys.exit()
+        
+    if cmd == "help" :
+        print ""
+        os.system("./artisan")
+        print ""
+    elif cmd == "exit" or cmd == "quit" :
+        break
+    else :
+        os.system("./artisan "+cmd)
+        print ""
+

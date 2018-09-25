@@ -1,0 +1,40 @@
+.loading{
+    background: #111
+}
+
+.loading-logo img{
+    height: 300px;
+}
+
+input{
+    background: rgba(255,255,255,0.1);
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #59646d;
+    border-radius: 0;
+    color: #ccc;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-family: Cloud;
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+
+button{
+    background: rgba(255,255,255,0.1);
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    color: #ccc;
+    font-family: Cloud;
+    padding: 10px 30px;
+    transition: background 0.3s ease;
+}
+
+button:hover{
+    background: #333;
+    cursor: pointer;
+}

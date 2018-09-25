@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="579be298-9a9a-4be4-94e7-f908e97c6818" name="TNIWorldClass" url="http://tniworldclass.com">
+        <fileTransfer host="tniworldclass.com" port="21" rootFolder="/domains/tniworldclass.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
